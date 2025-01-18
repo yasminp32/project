@@ -1,0 +1,128 @@
+
+body {
+    font-family:Arial , sans-serif;
+}
+
+.navbar a {
+    flex: 1;
+    padding: 100px 60px;
+    text-align: center;
+    text-decoration:none;
+    padding-inline-end: ;
+    color:black;
+}
+.container {
+position: relative;
+text-align: center;
+color:white;
+}
+
+ul#navbar-nav .active {
+    font-weight: bold;
+}
+.centered {
+position: absolute;
+top: 50%;
+left: 30%;
+transform: translate(-50%, -50%);
+}  
+.cc-title-title {
+    padding-top: 10%;
+    padding-bottom: 10%;
+font-family: proxima-nova, sans-serif;
+font-size: 30px;
+text-align: center;
+}
+
+.cc-cta-title, .cc-title-title {
+font-weight: 300;
+font-style: normal;
+line-height: 1.33;
+color:black;
+}   
+
+.cc-iat-text {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 1.43;
+}
+.cc-iat-text, .cc-iat-title {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+ 
+    .cc-iat-image-content{
+        display: block;
+        position: static;
+        left: auto;
+        bottom: auto;
+        padding: 35px;
+        color: white;
+    }
+
+    .cc-iat-image-content{
+        flex-basis: 100%;
+        width: 20%;
+        min-width: 30%;
+        position: relative;
+        left: 350px;
+        bottom: 70px;
+        
+    }
+    
+   
+    .card-img {
+        width: 100%;
+        height: auto;
+    }
+    
+   .card-content {
+        padding: 16px;
+    }
+    
+    .card-title {
+        font-size: 1.5em;
+        margin: 0 0 8px;
+    }
+    
+    .card-description {
+        font-size: 1em;
+        color:black;
+        margin: 0 0 16px;
+    }
+    
+    .card-link {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color:blue;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+    
+    .card-link:hover {
+        background-color:black;
+    }
+
+
+
+
+
+
